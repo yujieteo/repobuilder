@@ -1,0 +1,31 @@
+# ==============================
+# Compiled executables
+# ==============================
+repobuild.exe
+test_repobuild.exe
+repobuild
+test_repobuild
+
+# ==============================
+# Generated project directories
+# ==============================
+my_git_project/
+test_project/
+
+# ==============================
+# Backup and temporary files
+# ==============================
+*~
+*.swp
+*.bak
+
+# ==============================
+# OS-specific files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs
+# ==============================
+*.log
