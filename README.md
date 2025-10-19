@@ -4,19 +4,19 @@ Repobuilder is a C program for generating a structured project directory layout 
 
 ## Project Structure
 
-After running, the default project layout (`my_git_project`) looks like this:
+After running, the default project layout (`project`) looks like this:
 
 # Run program with default arguments
-make run
+`make run`
 
 # OR run manually with custom arguments:
-./repobuild <root_directory> <number_of_projects> <project_name1> <project_name2> ...
+`./repobuild <root_directory> <number_of_projects> <project_name1> <project_name2> ...`
 
 # Example
-./repobuild diffeq 3 1d_poisson 1d_laplace 2d_poisson
+`./repobuild diffeq 3 1d_poisson 1d_laplace 2d_poisson`
 
 # Run Tests
-make test
+`make test`
 
 # Cleaning
-make clean
+`make clean`
